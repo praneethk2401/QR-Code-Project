@@ -1,7 +1,4 @@
 # QR Code Project
-
-![QR Code Project](qr_code_project_logo.png)
-
 This repository contains the source code for the **QR Code Project**, a simple mini project to generate QR codes.
 
 ## Features
