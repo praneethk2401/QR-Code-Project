@@ -8,13 +8,13 @@ import fs from "fs";
 */
 inquirer
   .prompt([
-    {message:"Type in your URL"
-    ,name:"URL"
+    {message:"Type in your URL" // prompting the user to enter the URL
+    ,name:"URL" // storing the typed url in a variable called name
 }])
   .then((answers) => {
     const url = answers.URL;
-    var qr_svg = qr.image(url);
-    qr_svg.pipe(fs.createWriteStream("message.png"));
+    var qr_svg = qr.image(url); // calling the qr-image package to convert the url to qr
+    qr_svg.pipe(fs.createWriteStream("message.png")); // creating the qr with the name message.png
     fs.writeFile("URL.txt", url, (err) => {
       if (err) throw err;
       console.log("The file has been saved!");
