@@ -1,5 +1,5 @@
 # QR Code Project
-This repository contains the source code for the **QR Code Project**, a simple mini project to generate QR codes.
+This repository contains the source code for the **QR Code Project**, a simple mini-project to generate QR codes.
 
 ## Features
 
@@ -33,11 +33,9 @@ This repository contains the source code for the **QR Code Project**, a simple m
    npm start
    ```
 
-5. Open your web browser and visit `http://localhost:3000` to access the QR Code Project.
-
 ## Usage
 
-Enter the desired content (URL, text, email address, etc.) in the input field and it will be converted into corresponding QR code.
+Enter the desired content (URL, text, email address, etc.) in the input field and it will be converted into the corresponding QR code.
 
 ## Technologies Used
 
