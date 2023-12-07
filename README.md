@@ -1,6 +1,8 @@
 # QR Code Project
 This repository contains the source code for the **QR Code Project**, a simple mini-project to generate QR codes.
 
+![qr code generator](https://github.com/praneethk2401/QR-Code-Project/assets/69918295/769ab497-8e45-4b5b-a451-e2bbb993ff31)
+
 ## Features
 
 - Generate QR codes for URLs, text, etc
